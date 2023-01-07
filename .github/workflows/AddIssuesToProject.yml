@@ -14,8 +14,8 @@
    assign_one_project:
      runs-on: ubuntu-latest
      permissions:
-      issues: read|write|none
-      pull-requests: read|write|none
+      issues: write
+      pull-requests: write
      name: Assign to One Project
      steps:
      - name: Assign NEW issues and NEW pull requests to project 2
