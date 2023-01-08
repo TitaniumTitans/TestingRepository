@@ -1,3 +1,5 @@
+name: 'Assign Issues to Projects'
+
 on:
    issues:
      types: [opened]
@@ -5,7 +7,7 @@ on:
      types: [opened]
 
 jobs:
-  assign_one_project:
+  assign_to_project:
     runs-on: ubuntu-latest
     steps:
       - name: Add To GitHub projects
